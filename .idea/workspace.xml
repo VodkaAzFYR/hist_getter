@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b02fc5cb-40f1-47f2-9a89-227ab903737e" name="Changes" comment="git ignore hotfix" />
+    <list default="true" id="b02fc5cb-40f1-47f2-9a89-227ab903737e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +128,7 @@
       <workItem from="1673345502961" duration="2975000" />
       <workItem from="1673353313646" duration="3287000" />
       <workItem from="1673373949235" duration="20000" />
-      <workItem from="1673534593712" duration="2181000" />
+      <workItem from="1673534593712" duration="2585000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore hotfix">
       <created>1673614739792</created>
