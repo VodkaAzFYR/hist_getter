@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b02fc5cb-40f1-47f2-9a89-227ab903737e" name="Changes" comment="git ignore hotfix" />
+    <list default="true" id="b02fc5cb-40f1-47f2-9a89-227ab903737e" name="Changes" comment="git ignore hotfix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,9 +38,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/antos/Desktop/Python Projects/brudnopis&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\antos\Desktop\Python Projects\hist_getter\viewer" />
+      <recent name="C:\Users\antos\Desktop\Python Projects\hist_getter" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.1">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hist_getter" />
