@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b02fc5cb-40f1-47f2-9a89-227ab903737e" name="Changes" comment="">
+    <list default="true" id="b02fc5cb-40f1-47f2-9a89-227ab903737e" name="Changes" comment="git ignore hotfix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +38,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/antos/Desktop/Python Projects/brudnopis&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\antos\Desktop\Python Projects\hist_getter\viewer" />
+      <recent name="C:\Users\antos\Desktop\Python Projects\hist_getter" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.1">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hist_getter" />
@@ -128,7 +134,7 @@
       <workItem from="1673345502961" duration="2975000" />
       <workItem from="1673353313646" duration="3287000" />
       <workItem from="1673373949235" duration="20000" />
-      <workItem from="1673534593712" duration="2585000" />
+      <workItem from="1673534593712" duration="2181000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore hotfix">
       <created>1673614739792</created>
